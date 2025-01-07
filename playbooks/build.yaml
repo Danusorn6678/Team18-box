@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: Team18-box:latest #docker image name
+         name: team18-box:latest #docker image name
          source: build
          build:
-            path: ~/Team18-box #path ที่เก็บไฟล์ sourcecode 
+            path: ~/team18-box #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
